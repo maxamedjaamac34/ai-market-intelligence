@@ -5,7 +5,7 @@ An AI-powered dashboard that aggregates financial news, summarizes macro events,
 ## Overview
 
 MacroLens helps traders, analysts, and investors stay ahead of market-moving events by:
-- **Fetching** latest financial news from NewsAPI
+- **Fetching** latest financial news from Finnhub
 - **Summarizing** articles with AI (OpenAI GPT-4o-mini)
 - **Predicting** market impact (Bullish/Bearish/Neutral)
 - **Identifying** affected assets with confidence scores
@@ -47,7 +47,7 @@ This is a decision-support analytics tool for understanding market events—**no
 
 ### Prerequisites
 - Python 3.8+
-- NewsAPI key (free tier: [newsapi.org](https://newsapi.org))
+- NewsAPI key (free tier: [newsapi.org](https://finnhub.io/dashboard))
 - OpenAI API key ([openai.com](https://openai.com))
 
 ### Installation
